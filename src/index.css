@@ -1,0 +1,419 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.navbar-nav a{
+  font-size: 18px;
+}
+/* Style for header */
+.navbar {
+  background-color: #fff; /* Set background color */
+  padding: 10px 20px; /* Add padding */
+  font-family: Arial, sans-serif; /* Set font family */
+}
+
+.navbar img {
+  max-height: 40px; /* Limit logo height */
+}
+
+.logo-text {
+  font-size: 1.5rem; /* Increase font size */
+  color: #000; /* Set font color */
+  margin-right: 1rem; /* Add right margin */
+  text-decoration: none; /* Remove underline */
+}
+
+.buttonshead {
+  position: absolute;
+right: 20.83%;
+top: 5.83%;
+bottom: 16.67%;
+
+}
+
+.btn-outline-dark {
+  border-color: #343a40; /* Set border color */
+  color: #343a40; /* Set font color */
+  font-size: 1rem; /* Set font size */
+  transition: all 0.3s ease; /* Add transition effect */
+}
+
+.btn-outline-dark:hover {
+  background-color: #343a40; /* Change background color on hover */
+  color: #fff; /* Change font color on hover */
+}
+
+
+ 
+  /* Style for banner */
+  .banner {
+     /*background-image: url("./assets/ad.png");*/
+    background-position: center;
+    background-size: cover;
+    height: 363.99px;
+    width: 1440px;
+
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .banner-img1{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 339.01px;
+    top: 256.22px;
+}
+.banner-img2{
+    
+position: absolute;
+width: 40px;
+height: 40px;
+left: 839.09px;
+top: 289px;
+}
+.banner-img3{
+    
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 970.17px;
+  top: 210px;
+  }
+  .banner-img4{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 450.01px;
+    top: 309.96px;
+  }
+  .banner-img5{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1002.08px;
+    top: 338px;
+    
+  }
+  .banner-img6{
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      left: 1002.08px;
+      top: 338px;
+  }
+  .banner-img7{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 423.01px;
+    top: 165.97px;
+    
+  }
+  .banner-img8{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1042.13px;
+    top: 120px;
+    
+  }
+  .banner-img9{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 314.83px;
+    top: 117.67px;
+  }
+  .banner-img10{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 910.71px;
+    top: 103px;
+  }
+  .banner-img11{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1163.64px;
+    top: 352.49px;
+  }
+  .banner-img12{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 944.71px;
+    top: 383.96px;
+  }
+  .banner-text {
+    position: absolute;
+    /* width: 367.91px;
+    height: 101.11px;
+    left: 548.52px;*/   
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 30px;
+
+   /* font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;*/
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+  
+  .banner-images {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .banner-image1 {
+    position: absolute;
+
+    width: 253px;
+    height: 363.99px;
+    left: 1187px;
+    top: 60px;
+  }
+  
+  .banner-image2 {
+    position: absolute;
+
+    width: 253px;
+    height: 363.99px;
+    left: 0px;
+    top: 60px;
+  }
+  
+  .banner-images img {
+    margin: 0 1rem;
+  }
+  
+  /* Style for featured products */
+  .featured {
+    position: absolute;
+    width: 1440px;
+    background-color:rgba(0, 0, 0, 0.025);;
+  }
+  
+  .featured h2 {
+    height: 59px;
+    left: 536px;
+    top: 506px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.75);
+  }
+
+  .btn-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #343a40;
+    color: #343a40;
+    font-weight: bold;
+    transition: all 0.3s ease;  
+      height: 36.4px;
+    background: #FFFFFF;
+    border-radius: 31.5px;
+  }
+  
+  .btn-btn:hover {
+    background-color: #343a40;
+    color: #FFFFFF;
+  }
+  
+  
+/* Product Card Styles */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .product-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+  gap: 28px;
+  }
+  
+  .product-box {
+    position: relative;
+    margin-bottom: 20px;
+    max-width: 400px;
+    width: 320px;
+  }
+  .product-box img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .product-box img:hover {
+    transform: scale(1.1);
+  }
+  
+  .favorite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .favorite:hover {
+    color: #f00;
+  }
+  .product-box:hover .favorite {
+    z-index: 2;
+    
+  }
+  .product-box img:hover {
+    transform: scale(1.1);
+    z-index: 0;
+  }
+  
+  
+
+  .product-details {
+  justify-content: space-between;
+  padding: 5px;
+  }
+  
+  .product-details h3 {
+  width: 320px;
+  height: 20px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .price {
+  width: 34px;
+  height: 25px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .product-details p {
+  margin-bottom: 10px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  }
+  
+  button {   
+    
+    width: 168.67px;
+    left: 635px;
+    background: #FFFFFF;
+        border-radius: 31.5px;
+        border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #F61B5A;
+    
+  }
+
+  
+  button:hover {
+    background-color: #F8B326;
+  }
+  
+  /* Product Card Styles ----------------------------------------------------------------------- */
+/* Style for header */
+header {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #555;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #F61B5A;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+width: 254px;
+height: 40px;
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+  background: linear-gradient(to right, #F8B326, #F61B5A, #FE8A00);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+ 

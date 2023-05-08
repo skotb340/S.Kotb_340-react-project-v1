@@ -1,0 +1,116 @@
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+}
+
+
+
+.product-section {
+  position: absolute;
+  width: 1397px;
+  height: 926px;
+  left: 21px;
+  top: 109px;
+  
+  background: rgba(0, 0, 0, 0.025);
+  }
+  
+  .product {
+  margin: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #ccc;
+  }
+  .price0 {
+    width: 161.94px;
+    height: 59.66px;
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;  
+    color: #252C32;
+    }
+  
+  .product-image {
+    width: 719.75px;
+    height: 815.34px;
+
+
+  }
+  
+  .product-image img {
+  max-width: 100%;
+  max-height: 100%;
+  }
+  
+  .product-info {
+    position: absolute;
+    width: 525.97px;
+    height: 815px;
+    left: 865px;
+    top: 170px;
+  }
+  
+  .product-info h2 {
+  font-size: 18px;
+  color: #ff6600;
+  margin: 0;
+  text-transform: uppercase;
+  }
+  
+  .product-info h3 {
+  font-size: 24px;
+  margin: 10px 0;
+  }
+  
+  .product-info .price {
+  font-size: 20px;
+  color: #333;
+  }
+  
+  .product-info ul {
+  margin: 10px 0;
+  padding: 0;
+  list-style: none;
+  }
+  
+  .product-info li {
+  margin: 5px 0;
+  }
+  
+  .product-info form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  }
+  
+  .product-info form label {
+  font-size: 16px;
+  margin-right: 10px;
+  }
+  
+  .product-info form select {
+  font-size: 16px;
+  padding: 5px;
+  margin-right: 10px;
+  }
+  
+  .product-info form button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  .product-info .added {
+  color: #ff6600;
+  font-weight: bold;
+  margin-top: 10px;
+  display: none;
+  }
